@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidal Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tidal WinApp Remote Control</h1>
+        <form action="/send_command" method="post" id="commandForm">
+            <div class="commands">
+                <button type="button" onclick="sendCommand('play')">Play/Pause</button>
+                <button type="button" onclick="sendCommand('next-song')">Next Song</button>
+                <button type="button" onclick="sendCommand('prev-song')">Previous Song</button>
+                <button type="button" onclick="sendCommand('shuffle')">Shuffle</button>
+                <button type="button" onclick="sendCommand('seek-back')">Seek Backward</button>
+                <button type="button" onclick="sendCommand('seek-forward')">Seek Forward</button>
+                <button type="button" onclick="sendCommand('volume-down')">Volume Down</button>
+                <button type="button" onclick="sendCommand('volume-up')">Volume Up</button>
+                <button type="button" onclick="sendCommand('prev-page')">Previous Page</button>
+                <button type="button" onclick="sendCommand('next-page')">Next Page</button>
+                <button type="button" onclick="sendCommand('open-settings')">Open Settings</button>
+                <div class="search-group">
+                    <input type="text" id="searchQuery" placeholder="Enter Search Query">
+                    <button type="button" onclick="sendSearchCommand('search')">Search</button>
+                    <button type="button" onclick="sendSearchCommand('playlist')">Playlist</button>
+                    <button type="button" onclick="sendSearchCommand('queue')">Queue</button>
+                    <button type="button" onclick="sendSearchCommand('queue_next')">Queue Next</button>
+                </div>
+                <input type="hidden" name="command" id="hiddenCommand">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

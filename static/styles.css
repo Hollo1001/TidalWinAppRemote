@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.commands button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.commands button:hover {
+    background-color: #555;
+}
+
+.search-group {
+    margin-top: 20px;
+}
+
+#searchQuery {
+    padding: 10px;
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 600px) {
+
+    .commands button,
+    #searchQuery {
+        width: 100%;
+    }
+}
