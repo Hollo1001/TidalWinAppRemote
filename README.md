@@ -66,8 +66,17 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 3. Open a web browser and navigate to `http://localhost:5000`.
 4. Use the web interface to control the Tidal application.
 
+## Why I'm Building a Tidal Remote Control App
+
+As a user of Tidal, I've recognized a significant gap in its functionality compared to some of its competitors like Spotify. While Tidal is renowned for its high-quality audio, it lacks a crucial feature: the ability to control playback on a PC remotely from another device. This feature is especially vital for audiophiles and those with advanced audio setups who prefer to manage their music without being physically present at their computer.
+
+A few years ago, there was an anticipation among the Tidal community when the company announced plans to introduce remote playback control. However, this feature never came to fruition and was subsequently removed from their upcoming features list. This absence in functionality has left a noticeable void in the user experience.
+
+While there are premium players like Roon and Audirvana that offer advanced control features and integration with Tidal, they come with their own set of drawbacks. Firstly, they are quite expensive, making them less accessible for many users. Additionally, these players often introduce complexities and limitations that may not align with the needs or preferences of all users.
+
+To bridge this gap, I have decided to create a remote control application for Tidal. My goal is to provide an accessible and user-friendly solution that allows users to enjoy Tidal's superior audio quality while offering the convenience of remote control. Whether it's skipping tracks, adjusting the volume, or exploring new playlists, this app aims to enable seamless control over Tidal playback from any device. The development of this app is driven by the desire to enhance the listening experience for Tidal users and to bring a much-needed functionality that has been long awaited.
+
 ## Important Notes
 
-- The application must be run with appropriate permissions to interact with the Tidal window.
 - The OCR functionality may require fine-tuning based on your system configuration and Tidal's interface.
 ```
