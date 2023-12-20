@@ -8,7 +8,6 @@ A Python-based web application for remotely controlling the Tidal desktop applic
 
 - Control playback (play, pause, next, previous, shuffle).
 - Adjust volume and seek within tracks.
-- Open Tidal settings and navigate through pages.
 - Search functionality and queuing.
 - Responsive web UI for control from a mobile device or desktop.
 - Automatically refocuses the last active application after executing a command.
