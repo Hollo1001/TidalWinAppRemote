@@ -30,6 +30,7 @@ A Python-based web application for remotely controlling the Tidal desktop applic
  ### If possible
  - preview search on webui
  - list users playlist, tracks and artists on webui
+ - display song time / control player directly in web (Mirror player in web)
 
 ## Installation
 
