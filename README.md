@@ -26,7 +26,7 @@ A Python-based web application for remotely controlling the Tidal desktop applic
  - play albums and public playlists
  - radios / mixes
  - playlist management (create, add, remove, like, delete, unlike)
- # If possible
+ ### If possible
  - preview search on webui
  - list users playlist, tracks and artists on webui
 
