@@ -1,4 +1,4 @@
-I might overhaul this app to use the webplayer instead, as it will make a lot of things a lot easier.
+## I might overhaul this app to use the webplayer instead, as it will make a lot of things a lot easier.
 
 # Tidal Remote Control Application
 
