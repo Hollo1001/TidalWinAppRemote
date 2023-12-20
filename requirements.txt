@@ -1,0 +1,10 @@
+flask
+pywinauto
+pytesseract
+Pillow
+opencv-python
+numpy
+mss
+pyautogui
+keyboard
+psutil
