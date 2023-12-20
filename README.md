@@ -79,4 +79,3 @@ To bridge this gap, I have decided to create a remote control application for Ti
 ## Important Notes
 
 - The OCR functionality may require fine-tuning based on your system configuration and Tidal's interface.
-```
